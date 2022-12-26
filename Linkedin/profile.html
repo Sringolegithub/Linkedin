@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile|social media</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- ----------navbar start--------- -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notification</span></a></li>
+
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/network.png" class="nav-profile-img" onclick="togglemenu()">
+            </div>
+        </div>
+        <!-- ---------------------profile-drop-down menu--------------------------------- -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/network.png">
+                    <h3>Sakshi Ingole</h3>
+
+                    <a href="#">see your profile</a>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+    <!-- ---------navbar end---------- -->
+
+    <!-- ------------------Left-sidebar-------------- -->
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/network.png" class="profile-pic">
+                    <h1>Sakshi Ingole</h1>
+                    <b>web Developer | React Developer
+                        and Intern at Softronix IT Solutions
+                    </b>
+                    <p>Maharashtrta,India &middot; <a href="#">Contact info</a></p>
+
+                    <div class="mutual-connection">
+                        <img src="images/user-2.png">
+                        <span>1 Mutual connection:Oriando Diggs</span>
+                    </div>
+
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                        <a href="#"><img src="images/chat.png">Message</a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- -------------About--------------- -->
+            <div class="profile-discription">
+                <h2>About</h2>
+                <p>The Success of every websites depends on search engin
+                    optimisation and digital marketing strategy .if you are
+                    on first page of all major search engines then you are
+                    ahead among your competitors on first page of all major
+                    search engines then you are ahead among your compitators.
+                </p>
+                <a href="#" class="see-more-link">see more...</a>
+            </div>
+            <!-- -----------------Experience----------- -->
+            <div class="profile-discription">
+                <h2>Experience</h2>
+                <div class="profile-disc-row">
+                    <!-- -----1--------- -->
+                    <img src="images/microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot;Full-Time</b>
+                        <b>Feb 2021-Present&middot; 1.5 Years</b>
+                        <p>Computer programing is the process of performing
+                            a perticular computation ,usually by designing and
+                            building an executable computer program
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-disc-row">
+                    <!-- ---------2---------- -->
+                    <img src="images/slack.png">
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Slack &middot;Full-Time</b>
+                        <b>June 2018-Jan-2021&middot; 2.6 Years</b>
+                        <p>Computer programing is the process of performing
+                            a perticular computation ,usually by designing and
+                            building an executable computer program
+                        </p>
+                        <hr>
+                    </div>
+
+                </div>
+                <div class="profile-disc-row">
+                    <!-- ----------3------------ -->
+                    <img src="images/google.png">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google Inc &middot;Full-Time</b>
+                        <b>Sept 2015-may-2018&middot; 2.8 Years</b>
+                        <p>Computer programing is the process of performing
+                            a perticular computation ,usually by designing and
+                            building an executable computer program
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- -------------Education----------- -->
+            <div class="profile-discription">
+                <h2>Education</h2>
+                <div class="profile-disc-row">
+                    <!-- -----1--------- -->
+                    <img src="images/nag-uni.jpg">
+                    <div>
+                        <h3>Nagpur University</h3>
+                        <b>B.E. ,Computer Science and Engineering</b>
+                        <b>2017 - 2021</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-disc-row">
+                    <!-- -----2--------- -->
+                    <img src="images/mh-bor.jpg">
+                    <div>
+                        <h3>Maharashtrta State Board</h3>
+                        <b>Higher Secondary Education </b>
+                        <b>2015 - 2017</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-disc-row">
+                    <!-- -----3--------- -->
+                    <img src="images/mh-bor.jpg">
+                    <div>
+                        <h3>Maharashtrta State Board</h3>
+                        <b>Secondary School Education</b>
+                        <b>2005 - 2015</b>
+                    </div>
+                </div>
+            </div>
+            <!-- ------------skills------------- -->
+            <div class="profile-discription">
+                <h2>Skills</h2>
+                <div>
+                    <a href="#" class="skill-btn">React.js</a>
+                    <a href="#" class="skill-btn">Web Design</a>
+                    <a href="#" class="skill-btn">C Language</a>
+                    <a href="#" class="skill-btn">CPP</a>
+                    <a href="#" class="skill-btn">HTML</a>
+                    <a href="#" class="skill-btn">CSS</a>
+                    <a href="#" class="skill-btn">JAVASCRIPT</a>
+                    <a href="#" class="skill-btn">BOOTSTARP</a>
+                    <a href="#" class="skill-btn">AJAX</a>
+                </div>
+            </div>
+            <!-- ------language-------- -->
+            <div class="profile-discription">
+                <h2>Language</h2>
+                <div>
+                    <a href="#" class="lang-btn">English</a>
+                    <a href="#" class="lang-btn">Marathi</a>
+                    <a href="#" class="lang-btn">Hindi</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ------------------rightsidebar-------------- -->
+
+        <!-- ------------------profile-sidebar----------- -->
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>Ad &middot;&middot;&middot;</small>
+                <p>Master the 5 principle of web design </p>
+                <div>
+                    <img src="images/network.png">
+                    <img src="images/mi-logo.png">
+                </div>
+                <b>Brand and Demand in Xiaome</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <!-- ---------peoples----------- -->
+            <div class="sidebar-people">
+                <h3>People you may know </h3>
+                <div class="sidebar-people-row">
+                    <img src="images/user-3.png">
+                    <div>
+                        <h2>Divya Mishra</h2>
+                        <p>Head of Marketing at Alibabo</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-2.png">
+                    <div>
+                        <h2>Jon Dissusa</h2>
+                        <p>Software Developer</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-4.png">
+                    <div>
+                        <h2>Jenny Jen</h2>
+                        <p>Software Engineer</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-5.png">
+                    <div>
+                        <h2>Harish Sharma</h2>
+                        <p>Web Designer ,Intern</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-1.png">
+                    <div>
+                        <h2>Rahul Roy</h2>
+                        <p>HR at Marketing Department</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+<!-- ------------footer------------- -->
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+        </div>
+        <div class="copyright-msg">
+            <img src="images/logo.png">
+            <p>Linkedup &#169; 2022.All right reserved</p>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- --------------js for open menu------------- -->
+    <script>
+        let profilemenu = document.getElementById("profileMenu");
+
+        function togglemenu() {
+            profilemenu.classList.toggle("open-menu");
+        }
+    </script>
+
+</body>
+
+</html>
